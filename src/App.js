@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
+import ProfilCompoment from './compoment/profile/profilCompoment';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="App">
+    {/* //   <header className="App-header">
+    //     
+    //   </header> */}
+
+    <ProfilCompoment name="Meriam" bio="doing many things and nothing"  profession="ingenieur en biologie industrielle">
+     <img src="./img/photo-de-profil.jpg" />
+    </ProfilCompoment>
+    
     </div>
   );
 }
