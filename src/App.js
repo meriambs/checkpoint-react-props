@@ -10,13 +10,6 @@ import { SiGithub } from "react-icons/si";
 import { DiJsBadge }from "react-icons/di";
 
 
-// const photot={
-// height: '225px',
-
-// borderRadius: '109px',
-//  marginTop: "29px",
-//   marginBottom: "39px",
-// }
 const apa ={
   backgroundColor: "#f5f5da",
 }
@@ -59,27 +52,25 @@ const badg={ marginRight: "14px"
 
 
 
-
-
 function App() {
   return (
      <div className="App" style={apa} >
     <div className="navy">
       
-  <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Profil</Navbar.Brand>
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">First Articl</Nav.Link>
-      <Nav.Link href="#pricing">Second Articl</Nav.Link>
-    </Nav>
+     <Navbar bg="dark" variant="dark">
+      <Navbar.Brand href="#home">Profil</Navbar.Brand>
+        <Nav className="mr-auto">
+         <Nav.Link href="#home">Home</Nav.Link>
+         <Nav.Link href="#features">First Articl</Nav.Link>
+        <Nav.Link href="#pricing">Second Articl</Nav.Link>
+        </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-info">Search</Button>
     </Form>
-  </Navbar>
+      </Navbar>
   
-  </div>
+     </div>
   <div style={namee} >
  
     <ProfilCompoment  name="Meriam" bio="doing many things and nothing"  profession="ingenieur en biologie industrielle">
@@ -88,6 +79,7 @@ function App() {
   
     </ProfilCompoment>
     </div>
+    {/* partie du bas  */}
      <body>
   
 
